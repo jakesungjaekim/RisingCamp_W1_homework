@@ -13,7 +13,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 80%;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -88,4 +88,115 @@
 
 section li {
   font-family: NeflixSans-Regular;
+}
+
+#promotions {
+  background-color: black;
+}
+
+.promotion {
+  display: flex;
+  justify-content: center;
+
+  border-bottom: 8px solid #222;
+
+  padding: 75px 45px;
+  color: white;
+}
+
+.promotion img {
+  width: 530px;
+}
+
+.promotion-text {
+  width: 550px;
+}
+
+.promotion-text h2 {
+  font-size: 50px;
+  margin: 0 0 8px 0;
+}
+
+.promotion-text p {
+  font-size: 26px;
+  font-weight: 200;
+}
+
+#questions {
+  background-color: black;
+  color: white;
+  border-bottom: 8px solid #222;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 70px 45px;
+}
+
+#questions form div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#questions form h2 {
+  font-size: 50px;
+  margin: 0 0 8px 0;
+  text-align: center;
+}
+
+#questions form p {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 20.7px 57.2px 20.8px 31.2px;
+
+  width: 100%;
+  width: 700px;
+}
+
+.buttons button {
+  border: none;
+  background-color: #303030;
+  color: white;
+  padding: 20px 57px 20px 31px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  text-align: left;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+#onemoretime {
+  display: flex;
+  flex-direction: column;
+}
+#onemoretime input {
+  box-sizing: border-box;
+  border: 1px solid #8c8c8c;
+  padding: 10px 10px 0;
+  font-size: 16px;
+  width: 500px;
+  height: 70px;
+}
+
+#onemoretime button {
+  box-sizing: border-box;
+  border: 1px soild #8c8c8c;
+  background-color: #e50914;
+  color: white;
+  width: 150px;
+  height: 70px;
+
+  font-size: 32px;
+  font-weight: 200;
+  padding: 15px;
+}
+
+#onemoretime button:hover {
+  background-color: #fb333d;
 }

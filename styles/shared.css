@@ -75,3 +75,49 @@ header a {
   /* 내가 추가 해보고 싶어서 넣은 것 */
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
+
+footer {
+  background-color: black;
+  color: #757575;
+  text-align: left;
+
+  padding: 75px 45px;
+  margin: 0 auto;
+}
+
+#footer-wrap {
+  display: flex;
+  flex-direction: column;
+
+  width: 1000px;
+  margin: 0 auto;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+footer ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 12px 0 0;
+  gap: 20px 20px;
+}
+
+footer li {
+  font-size: 13px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.footer-informations h3 {
+  font-size: 13px;
+  margin: 24px 0 13px 0;
+}
+
+.footer-informations p {
+  font-size: 12px;
+  margin: 0;
+}
