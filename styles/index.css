@@ -13,7 +13,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 80%;
+  height: 80.5%;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -71,10 +71,11 @@
 
 #hero-content form div button {
   box-sizing: border-box;
+  border: none;
   border: 1px soild #8c8c8c;
   background-color: #e50914;
   color: white;
-  width: 150px;
+  width: 200px;
   height: 70px;
 
   font-size: 32px;
@@ -110,6 +111,7 @@ section li {
 
 .promotion-text {
   width: 550px;
+  padding: 65px 0;
 }
 
 .promotion-text h2 {
@@ -171,6 +173,12 @@ section li {
   font-size: 26px;
 }
 
+.buttons img {
+  align-items: center;
+  position: absolute;
+  right: 650px;
+}
+
 #onemoretime {
   display: flex;
   flex-direction: column;
@@ -186,10 +194,11 @@ section li {
 
 #onemoretime button {
   box-sizing: border-box;
+  border: none;
   border: 1px soild #8c8c8c;
   background-color: #e50914;
   color: white;
-  width: 150px;
+  width: 200px;
   height: 70px;
 
   font-size: 32px;
